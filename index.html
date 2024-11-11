@@ -11,32 +11,35 @@
             font-family: Arial, sans-serif;
         }
         .bg-image {
-    background-image: url('/backgroundimage.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    color: #ffffff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-    z-index: 0; /* Ensure the background image is behind the overlay */
-}
+            background-image: url('/backgroundimage.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            color: #ffffff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+            z-index: 0; /* Ensure the background image is behind the overlay */
+        }
 
-.overlay {
-    background-color: #200039; /* Add a dark overlay for readability */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1; /* The overlay stays above the background image */
-}
+        .overlay {
+            background-color: #200039; /* Add a dark overlay for readability */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* The overlay stays above the background image */
+        }
 
-.content {
-    position: relative;
-    z-index: 2; /* Content is above the overlay */
-    padding: 2rem;
-}
-
+        .content {
+            position: relative;
+            z-index: 2; /* Content is above the overlay */
+            padding: 2rem;
+        }
+        .bg-white {
+            --tw-bg-opacity: 1;
+            background-color: rgb(122 17 172 / 84%);
+        }
         .countdown {
             font-size: 2rem;
             font-weight: bold;
@@ -61,42 +64,6 @@
             <div id="countdown" class="countdown mt-4">Loading countdown...</div>
         </div>
     </section>
-    <section class="py-10 px-4">
-        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-            <h2 class="text-2xl font-bold text-center mb-4">AL-IZZA 7TH ANNUAL MUSAABAQAH</h2>
-            
-            <h3 class="text-xl font-semibold mb-2">Competition Details:</h3>
-            <p><strong>Musaabaqah Preliminary:</strong> Friday 29th (After Jumaat Service) to Saturday 30th.</p>
-            <p><strong>Grand Finale and Prize Presentation:</strong> Sunday 1st December, 8am.</p>
-        </div>
-    </section>
-    
-    <!-- Instructions Section -->
-    <section class="py-10 px-4">
-        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-            <h3 class="text-xl font-semibold mb-4 text-center">Instructions to All Intending Participants:</h3>
-            
-            <div class="mb-4 p-4 bg-purple-100 rounded-lg">
-                <h4 class="text-lg font-semibold">Step 1:</h4>
-                <p>All participants who are sure by Allah's grace will attend are to register by sending a 3-minute video of any Ayat of the Holy Qur'an to the Facebook page of Al-Izza, with the following information:</p>
-                <ul class="list-disc list-inside mt-2">
-                    <li>Full Name</li>
-                    <li>Category</li>
-                </ul>
-            </div>
-    
-            <div class="mb-4 p-4 bg-purple-100 rounded-lg">
-                <h4 class="text-lg font-semibold">Step 2:</h4>
-                <p>Register via the link: <a href="https://forms.gle/szEmCiYPFxBm85jh8" class="text-blue-500 underline">https://forms.gle/szEmCiYPFxBm85jh8</a></p>
-            </div>
-    
-            <div class="p-4 bg-purple-100 rounded-lg">
-                <h4 class="text-lg font-semibold">Step 3:</h4>
-                <p>Join the WhatsApp group: <a href="https://chat.whatsapp.com/CIiJYImEuckGSluaxa0diH" class="text-blue-500 underline">https://chat.whatsapp.com/CIiJYImEuckGSluaxa0diH</a></p>
-            </div>
-        </div>
-    </section>
-    <!-- About the Competition -->
     <section class="text-center p-8">
         <h2 class="text-2xl font-semibold text-indigo-600">About the Competition</h2>
         <p class="mt-4 max-w-2xl mx-auto">
@@ -106,46 +73,65 @@
         </p>
     </section>
 
+ 
+    <!-- About the Competition -->
+    
     <!-- How to Participate Card -->
-    <section class="p-8">
-        <div class="card mx-auto max-w-2xl">
-            <h2 class="text-2xl font-semibold text-indigo-600 text-center">How to Participate</h2>
-            <p class="mt-4 text-gray-700">
-                📢 **Preliminary Stage of the Al-Izza 7th Annual Qur'an Recitation Competition**
-                <br> Assalamualaikum Warahmatullah Wabarakaatuh, dear friends and participants!
-                <br><br>🌟 **The journey begins!** We invite all reciters to take part in the preliminary stage by sharing a short video of their Qur'an recitation in the comments below. This is your chance to inspire others and shine through the words of Allah!
-            </p>
-            <div class="mt-4 text-left text-gray-700">
-                <p class="font-semibold">📌 Steps to Participate:</p>
-                <ol class="list-decimal list-inside">
-                    <li>Record a short, clear video of yourself reciting a verse from the Qur'an.</li>
-                    <li>Post the video in the comments section with your full name and location.</li>
-                    <li>Ensure your recitation is clear and easy to understand.</li>
-                </ol>
-            </div>
-            <p class="mt-4 text-gray-700">
-                We’d love for all of our community members to be a part of this journey. **Please support by following, liking, and resharing this post to spread the word!**
-            </p>
+    <section class="py-10 px-4">
+        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold text-center mb-4">AL-IZZA 7TH ANNUAL MUSAABAQAH</h2>
+    
+            <!-- Competition Details -->
+            <h3 class="text-xl font-semibold mb-2">Competition Details:</h3>
+            <p><strong>Musaabaqah Preliminary:</strong> Friday 29th (After Jumaat Service) to Saturday 30th.</p>
+            <p><strong>Grand Finale and Prize Presentation:</strong> Sunday 1st December, 8am.</p>
+        </div>
+    
+        <!-- How to Register Section -->
+        <div class="max-w-3xl mx-auto bg-purple-100 p-6 rounded-lg shadow-lg mt-10">
+            <h3 class="text-xl font-semibold mb-4">How to Register:</h3>
+            <p class="mb-4">Follow the steps below to register for the Al-Izza 7th Annual Musaabaqah:</p>
+    
+            <!-- Registration Steps -->
+            <ol class="list-decimal ml-6 mb-6">
+                <li>Click on the registration link below to open the registration form.</li>
+                <li>Fill out the required details, including your name, contact information, and preferred category.</li>
+                <li>If you are selected, ensure that you attend the preliminary stage of the competition.</li>
+            </ol>
+    
+            <!-- Registration Link or Form -->
+            <a href="#" class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition">Register Now</a>
         </div>
     </section>
+    
 
     <!-- How to Register Card -->
     <section class="p-8">
-        <div class="card mx-auto max-w-2xl">
-            <h2 class="text-2xl font-semibold text-indigo-600 text-center">How to Register</h2>
-            <p class="mt-4 text-gray-700 text-center">
-                Ready to join? Click below to register for the competition. After registration, you can upload your recitation video for the preliminary stage.
-            </p>
-            <div class="mt-6 text-center">
-                <a href="#register" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-md shadow-lg mr-4">
-                    Register Now
-                </a>
-                <a href="#upload-video" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-md shadow-lg">
-                    Upload Recitation Video
-                </a>
-            </div>
+        <div class="max-w-3xl mx-auto bg-green-100 p-6 rounded-lg shadow-lg mt-10">
+            <h3 class="text-xl font-semibold mb-4">How to Participate:</h3>
+            <p class="mb-4">Assalamualaikum Warahmatullah Wabarakaatuh, dear friends and participants!</p>
+            <p class="mb-4">🌟 The journey begins! We invite all reciters to share a video of their Qur'an recitation in the comments below as part of the preliminary stage for this year’s competition. This is your chance to let your voice be heard and inspire others with the beauty of the Qur'an.</p>
+    
+            <!-- Participation Instructions -->
+            <p class="font-semibold mb-2">📌 How to Participate:</p>
+            <ol class="list-decimal ml-6 mb-6">
+                <li>Record a short video of yourself reciting a verse from the Qur'an.</li>
+                <li>Post the video in the comments below.</li>
+                <li>Include your full name and location.</li>
+            </ol>
+    
+            <!-- Guidelines -->
+            <p class="font-semibold mb-2">🌟 Guidelines:</p>
+            <p class="mb-4">Please ensure the video is clear and audible. Reciters of all ages are encouraged to participate.</p>
+    
+            <p>Let’s come together to honor the words of Allah and celebrate the voices of our talented reciters. Share this post, and encourage friends and family to join us on this blessed journey!</p>
+            
+            <p class="font-semibold mt-4">May Allah bless and guide all of our participants. We look forward to hearing your recitations!</p>
+    
+            <p class="mt-4 text-purple-600 font-semibold">#AlIzzaQuranCompetition #PreliminaryStage #ReciteAndInspire #SupportOurYouth</p>
         </div>
     </section>
+    
 
     <!-- Support and Engagement Section -->
     <section class="text-center p-8">
