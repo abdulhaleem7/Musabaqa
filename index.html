@@ -11,28 +11,32 @@
             font-family: Arial, sans-serif;
         }
         .bg-image {
-            background-image: url('/backgroundimage.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
-            color: #ffffff;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-        }
-        .overlay {
-            background-color: #bf6bff; /* Add a dark overlay for readability */
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-        }
-        .content {
-            position: relative;
-            z-index: 2;
-            padding: 2rem;
-        }
+    background-image: url('/backgroundimage.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 0; /* Ensure the background image is behind the overlay */
+}
+
+.overlay {
+    background-color: #200039; /* Add a dark overlay for readability */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* The overlay stays above the background image */
+}
+
+.content {
+    position: relative;
+    z-index: 2; /* Content is above the overlay */
+    padding: 2rem;
+}
+
         .countdown {
             font-size: 2rem;
             font-weight: bold;
@@ -46,7 +50,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800 ">
 
     <!-- Hero Section with Background Image -->
     <section class="bg-image text-center py-20">
